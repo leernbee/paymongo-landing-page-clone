@@ -4,11 +4,11 @@ export default function Ecosystem() {
       style={{
         background: 'linear-gradient(90deg,#37b47e 23%,#6a71cf 91%)',
       }}
-      className="overflow-hidden py-16 bg-gray-200 lg:py-32"
+      className="overflow-hidden py-16 font-serif bg-gray-200 lg:py-32"
     >
       <div className="relative px-4 mx-auto max-w-xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative">
-          <div className="mx-auto max-w-2xl g-container">
+          <div className="mx-auto max-w-3xl g-container">
             <div className="mid">
               <img
                 className="relative mx-auto rounded-md"
@@ -50,10 +50,10 @@ export default function Ecosystem() {
               />
             </div>
           </div>
-          <h2 className="text-3xl font-extrabold tracking-tight leading-8 text-center text-white sm:text-4xl">
-            A better way to send money
+          <h2 className="mt-12 text-3xl font-bold tracking-tight leading-8 text-center text-white sm:text-4xl">
+            Made possible by our ecosystem partners
           </h2>
-          <p className="mx-auto mt-4 max-w-3xl text-xl text-center text-white">
+          <p className="mx-auto mt-5 max-w-5xl text-xl text-center text-white">
             We&apos;re building a financial operating system for businesses in
             the Philippines, starting with payments.
           </p>

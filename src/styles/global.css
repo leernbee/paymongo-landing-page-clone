@@ -6,7 +6,7 @@
   display: grid; 
   grid-template-columns: 1fr 1fr 2fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr; 
-  gap: 0px 0px; 
+  gap: 0px 32px; 
   grid-template-areas: 
     ". . mid . ."
     ". visa mid paymaya ."
@@ -19,5 +19,29 @@
 .grabpay { grid-area: grabpay; }
 
 .slide.selected > div {
-  background-color: green;
+  background-color: #f9fafb;
+  filter: blur(0);
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background: #37B47E;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #37B47E;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #fff;
+}
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #fff;
 }

@@ -84,19 +84,19 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="bg-white" aria-labelledby="footer-heading">
+    <footer className="font-serif bg-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
       <div className="py-12 px-4 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="space-y-8 xl:col-span-1">
+          <div className="xl:col-span-1">
             <img
               className="h-9"
               src="/assets/svg/main-logo.svg"
               alt="Company name"
             />
-            <address className="not-italic font-normal text-gray-700 text-md">
+            <address className="text-lg not-italic font-normal text-gray-800">
               Unit 3308, High St South Corp Plaza Tower 2<br /> 26th St and 11th
               Ave, Bonifacio Global City
               <br /> Taguig 1634 Philippines
@@ -114,13 +114,13 @@ export default function Example() {
                 support@paymongo.com
               </a>
             </div>
-            <h3 className="text-lg">Find us online</h3>
+            <h3 className="text-lg font-semibold">Find us online</h3>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-400 hover:text-gray-500"
+                  className="text-gray-900 hover:text-ocean-green-500"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="w-6 h-6" aria-hidden="true" />
@@ -140,7 +140,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-gray-600 hover:text-ocean-green-500 text-md"
                       >
                         {item.name}
                       </a>
@@ -154,7 +154,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-gray-600 hover:text-ocean-green-500 text-md"
                       >
                         {item.name}
                       </a>
@@ -166,7 +166,7 @@ export default function Example() {
           </div>
         </div>
         <div className="grid grid-cols-2 items-center pt-8 mt-12">
-          <p className="text-base text-gray-400">
+          <p className="text-base text-gray-500">
             &copy; Copyright 2022 Paymongo
           </p>
           <div className="flex flex-wrap justify-between -mt-4 -ml-8 lg:-ml-4">

@@ -13,25 +13,48 @@ const solutions = [
     name: 'Links',
     description: 'One-time payment links',
     href: '#',
-    svg: 'pages-icon.svg',
+    svg: 'links.svg',
   },
   {
-    name: 'Links',
-    description: 'One-time payment links',
+    name: 'Pages',
+    description: 'Customizable checkout page',
     href: '#',
-    svg: 'pages-icon.svg',
+    svg: 'pages.svg',
   },
   {
-    name: 'Links',
-    description: 'One-time payment links',
+    name: 'Plugins',
+    description: 'Payments for your e-commerce builder',
     href: '#',
-    svg: 'pages-icon.svg',
+    svg: 'plugins.svg',
   },
   {
-    name: 'Links',
-    description: 'One-time payment links',
+    name: 'API',
+    description: 'Payments for any website or app',
     href: '#',
-    svg: 'pages-icon.svg',
+    svg: 'api.svg',
+  },
+];
+
+const resources = [
+  {
+    name: 'Blog',
+    href: '#',
+    svg: 'blog.svg',
+  },
+  {
+    name: 'Learn',
+    href: '#',
+    svg: 'learn.svg',
+  },
+  {
+    name: 'E-wallets',
+    href: '#',
+    svg: 'e-wallet-icon.svg',
+  },
+  {
+    name: 'Secure',
+    href: '#',
+    svg: 'safe-icon.svg',
   },
 ];
 
@@ -339,7 +362,7 @@ export default function Navigation() {
                         <div className="absolute top-12 left-1/2 z-10 px-2 mt-3 w-screen max-w-xs -translate-x-1/2 sm:px-0">
                           <div className="overflow-hidden rounded-lg ring-opacity/5">
                             <div className="grid relative gap-6 py-6 px-5 bg-white sm:gap-8 sm:p-8">
-                              {solutions.map((item) => (
+                              {resources.map((item) => (
                                 <a
                                   key={item.name}
                                   href={item.href}

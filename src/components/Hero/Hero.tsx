@@ -52,15 +52,15 @@ export default function Hero() {
                 </p>
               </div>
               <div className="items-center mt-12 sm:flex sm:w-full">
-                <div className="mt-4 sm:mt-0">
+                <div className="mt-4 mr-10 sm:mt-0">
                   <button
                     type="submit"
-                    className="block py-6 w-full text-lg font-medium text-white bg-green-600 hover:bg-green-700 rounded-md border border-transparent focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 shadow sm:px-9"
+                    className="block py-6 w-full text-lg font-medium text-white bg-ocean-green-500 hover:bg-ocean-green-700 rounded-md border border-transparent focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-8"
                   >
                     Create your account - it&apos;s free!
                   </button>
                 </div>
-                <div className="flex shrink-0 justify-center items-center p-1 w-10 h-10 text-white rounded-full ring-2 ring-green-500  sm:w-12 sm:h-12">
+                <div className="flex shrink-0 justify-center items-center p-1 w-10 h-10 text-white rounded-full ring-2 ring-ocean-green-500  sm:w-12 sm:h-12">
                   <Image
                     src={`/assets/svg/calendar-icon.svg`}
                     alt="icon"
@@ -69,7 +69,7 @@ export default function Hero() {
                   />
                 </div>
                 <div className="ml-4">
-                  <p className="text-base font-semibold text-gray-900">
+                  <p className="text-lg font-semibold text-ocean-green-500">
                     Book a Demo
                   </p>
                 </div>
