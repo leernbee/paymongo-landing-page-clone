@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.g-container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . mid . ."
+    ". visa mid paymaya ."
+    "mastercard . mid . grabpay"; 
+}
+.mid { grid-area: mid; }
+.mastercard { grid-area: mastercard; }
+.visa { grid-area: visa; }
+.paymaya { grid-area: paymaya; }
+.grabpay { grid-area: grabpay; }
+
+.slide.selected > div {
+  background-color: green;
+}

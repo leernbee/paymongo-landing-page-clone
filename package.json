@@ -19,8 +19,8 @@
     "next-seo": "^5.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-isotope": "^1.0.7",
     "react-lottie": "^1.2.3",
+    "react-responsive-carousel": "^3.2.22",
     "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {
