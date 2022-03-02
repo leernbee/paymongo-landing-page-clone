@@ -83,7 +83,7 @@ export default function Hero() {
             <div className="absolute top-1/2 left-0 pl-4 -mr-40 -translate-y-1/3 sm:px-0 sm:mx-auto sm:max-w-3xl lg:pl-12 lg:max-w-none lg:h-full">
               <BgCircleHero />
             </div>
-            <div className="absolute top-0 left-0 pl-4 -mr-40 sm:px-0 sm:mx-auto sm:max-w-3xl lg:pl-12 lg:max-w-none lg:h-full">
+            <div className="hidden top-0 left-0 pl-4 -mr-40 sm:px-0 sm:mx-auto sm:max-w-3xl lg:block lg:pl-12 lg:max-w-none lg:h-full">
               <div className="absolute top-6 left-56 w-[670px] h-full">
                 <Image
                   src="/assets/images/hero-dashboard.png"
