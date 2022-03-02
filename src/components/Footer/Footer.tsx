@@ -92,29 +92,29 @@ export default function Example() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="xl:col-span-1">
             <img
-              className="h-9"
+              className="block mb-4 h-9"
               src="/assets/svg/main-logo.svg"
               alt="Company name"
             />
-            <address className="text-lg not-italic font-normal text-gray-800">
+            <address className="block mb-3 text-lg not-italic font-normal text-gray-800">
               Unit 3308, High St South Corp Plaza Tower 2<br /> 26th St and 11th
               Ave, Bonifacio Global City
               <br /> Taguig 1634 Philippines
             </address>
-            <div className="flex items-center">
+            <div className="flex items-center mb-10">
               <img
-                className="mr-3 h-5"
+                className="mr-3 h-4"
                 src="/assets/svg/mail-icon.svg"
                 alt="Company name"
               />
               <a
-                className="text-green-500 text-md"
+                className="text-ocean-green-500 text-md"
                 href="mailto:support@paymongo.com"
               >
                 support@paymongo.com
               </a>
             </div>
-            <h3 className="text-lg font-semibold">Find us online</h3>
+            <h3 className="mb-3 text-lg font-semibold">Find us online</h3>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
                 <a

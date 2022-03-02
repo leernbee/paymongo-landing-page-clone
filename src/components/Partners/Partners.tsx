@@ -2,7 +2,7 @@ import React from 'react';
 
 const Partners = () => {
   return (
-    <div className="py-8 mx-auto w-full max-w-7xl border-b border-gray-400">
+    <div className="py-8 mx-auto w-full max-w-7xl font-serif border-b border-gray-400">
       <div className="block overflow-hidden relative">
         <span className="block relative after:absolute after:top-1/2 after:ml-1 after:w-full text-gray-700 after:border-t after:border-gray-400">
           Our growing list of payment partners{' '}

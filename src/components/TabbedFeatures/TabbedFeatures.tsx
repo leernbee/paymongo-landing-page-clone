@@ -186,7 +186,7 @@ export default function TabbedFeatures() {
                             Instagram, SMS or anywhere you talk to your customer
                           </p>
                           <div className="pl-5 sm:mt-0">
-                            <button className="py-4 text-lg font-medium text-ocean-green-500 bg-transparent hover:bg-ocean-green-700 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
+                            <button className="py-4 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
                               Learn about Links
                             </button>
                           </div>
@@ -231,7 +231,7 @@ export default function TabbedFeatures() {
                             business&apos; product or service
                           </p>
                           <div className="pl-5 sm:mt-0">
-                            <button className="py-4 text-lg font-medium text-ocean-green-500 bg-transparent hover:bg-ocean-green-700 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
+                            <button className="py-4 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
                               Learn about Pages
                             </button>
                           </div>
@@ -276,7 +276,7 @@ export default function TabbedFeatures() {
                             to collect credit card and e-wallet payments
                           </p>
                           <div className="pl-5 sm:mt-0">
-                            <button className="py-4 text-lg font-medium text-ocean-green-500 bg-transparent hover:bg-ocean-green-700 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
+                            <button className="py-4 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
                               Learn about our Plugins
                             </button>
                           </div>
@@ -322,7 +322,7 @@ export default function TabbedFeatures() {
                             millions of customers.
                           </p>
                           <div className="pl-5 sm:mt-0">
-                            <button className="py-4 text-lg font-medium text-ocean-green-500 bg-transparent hover:bg-ocean-green-700 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
+                            <button className="py-4 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
                               Learn about our API
                             </button>
                           </div>

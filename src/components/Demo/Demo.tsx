@@ -55,7 +55,7 @@ const Demo = () => {
               <div className="mt-4 mr-10 sm:mt-0">
                 <button
                   type="submit"
-                  className="block py-6 w-full text-lg font-medium text-white bg-ocean-green-500 hover:bg-ocean-green-700 rounded-md border border-transparent focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-8"
+                  className="block py-6 w-full text-lg font-medium text-white bg-ocean-green-500 hover:bg-ocean-green-600 rounded-md border border-transparent focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-8"
                 >
                   Create your account - it&apos;s free!
                 </button>
