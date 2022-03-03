@@ -2,7 +2,7 @@ import React from 'react';
 
 const Businesses = () => {
   return (
-    <div className="py-32 px-4 mx-auto max-w-7xl font-serif sm:py-24 sm:px-6 lg:px-8">
+    <div className="overflow-hidden py-32 px-4 mx-auto max-w-7xl font-serif sm:py-24 sm:px-6 lg:px-8 xl:overflow-visible">
       <div className="mb-16 text-center">
         <h2 className="mt-1 text-3xl font-semibold text-gray-900 sm:tracking-tight lg:text-5xl">
           Businesses you love are growing with PayMongo

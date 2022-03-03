@@ -89,7 +89,7 @@ export default function Example() {
         Footer
       </h2>
       <div className="py-12 px-4 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className="flex justify-between">
           <div className="xl:col-span-1">
             <img
               className="block mb-4 h-9"
@@ -128,14 +128,10 @@ export default function Example() {
               ))}
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-8 mt-12 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div></div>
-              <div></div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <ul role="list" className="mt-4 space-y-4">
+          <div className="flex xl:mt-0">
+            <div className="grid grid-cols-2 gap-8">
+              <div className="min-w-[160px]">
+                <ul role="list" className="space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
                       <a
@@ -148,8 +144,8 @@ export default function Example() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-12 md:mt-0">
-                <ul role="list" className="mt-4 space-y-4">
+              <div className="min-w-[160px]">
+                <ul role="list" className="space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
                       <a
@@ -165,7 +161,7 @@ export default function Example() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 items-center pt-8 mt-12">
+        <div className="grid grid-cols-2 items-center mt-12">
           <p className="text-base text-gray-500">
             &copy; Copyright 2022 Paymongo
           </p>

@@ -78,12 +78,12 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="sm:px-6 sm:mx-auto sm:max-w-3xl">
+        <div className="overflow-hidden sm:px-6 sm:mx-auto sm:max-w-3xl">
           <div className="py-12 sm:relative sm:py-16 sm:mt-12 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-            <div className="absolute top-1/2 left-0 pl-4 -mr-40 -translate-y-1/3 sm:px-0 sm:mx-auto sm:max-w-3xl lg:pl-12 lg:max-w-none lg:h-full">
+            <div className="top-1/2 left-0 pl-4 -mr-40 -translate-y-1/3 sm:px-0 sm:mx-auto sm:max-w-3xl lg:absolute lg:pl-12 lg:max-w-none lg:h-full">
               <BgCircleHero />
             </div>
-            <div className="hidden top-0 left-0 pl-4 -mr-40 sm:px-0 sm:mx-auto sm:max-w-3xl lg:block lg:pl-12 lg:max-w-none lg:h-full">
+            <div className="pl-4 -mr-40 sm:px-0 sm:mx-auto sm:max-w-3xl lg:block lg:pl-12 lg:max-w-none lg:h-full">
               <div className="absolute top-6 left-56 w-[670px] h-full">
                 <Image
                   src="/assets/images/hero-dashboard.png"

@@ -292,7 +292,7 @@ export default function Navigation() {
                 <div className="hidden items-center lg:flex">
                   <ul className="hidden items-center h-full lg:flex">
                     <li
-                      className="flex relative items-center mx-10 h-full tracking-normal hover:text-ocean-green-500 cursor-pointer text-md text-gry-800"
+                      className="flex relative items-center mx-4 h-full tracking-normal hover:text-ocean-green-500 cursor-pointer text-md text-gry-800"
                       onMouseEnter={() => setMenu1(true)}
                       onMouseLeave={() => setMenu1(false)}
                     >
