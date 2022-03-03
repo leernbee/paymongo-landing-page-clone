@@ -15,15 +15,15 @@ const Businesses = () => {
         <div className="flex col-span-1 justify-center p-4 rounded-lg shadow lg:p-8 min-w-">
           <img
             className="max-h-24"
-            src="/assets/images/kimstore.png"
-            alt="pdax"
+            src="/assets/images/kimstore-i.png"
+            alt="kimstore"
           />
         </div>
         <div className="flex col-span-1 justify-center p-4 rounded-lg shadow lg:p-8 min-w-">
           <img
             className="max-h-24"
             src="/assets/images/shakeys.png"
-            alt="pdax"
+            alt="shakeys"
           />
         </div>
         <div className="flex col-span-1 justify-center p-4 rounded-lg shadow lg:p-8 min-w-">
@@ -32,15 +32,15 @@ const Businesses = () => {
         <div className="flex col-span-1 justify-center p-4 rounded-lg shadow lg:p-8 min-w-">
           <img
             className="max-h-24"
-            src="/assets/images/stance.png"
-            alt="pdax"
+            src="/assets/images/stance-i.png"
+            alt="stance"
           />
         </div>
         <div className="flex col-span-1 justify-center p-4 rounded-lg shadow lg:p-8 min-w-">
           <img
             className="max-h-24"
             src="/assets/images/wildflour.png"
-            alt="pdax"
+            alt="wildflour"
           />
         </div>
         <div className="flex col-span-1 justify-center p-4 rounded-lg shadow lg:p-8 min-w-">
@@ -50,7 +50,7 @@ const Businesses = () => {
           <img
             className="max-h-24"
             src="/assets/images/mandauefoam.png"
-            alt="pdax"
+            alt="mandauefoam"
           />
         </div>
         <div className="flex col-span-1 justify-center p-4 rounded-lg shadow lg:p-8 min-w-">
@@ -60,7 +60,7 @@ const Businesses = () => {
           <img
             className="max-h-24"
             src="/assets/images/beautymnl.png"
-            alt="pdax"
+            alt="beautymnl"
           />
         </div>
       </div>
