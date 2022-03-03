@@ -77,10 +77,9 @@ export default function Navigation() {
                 )}
               >
                 <span>Products</span>
-                <ChevronDownIcon
-                  className="-mr-1 ml-2 w-5 h-5"
-                  aria-hidden="true"
-                />
+                <div className="flex items-center">
+                  <ChevronDownIcon className="w-5 h-5" aria-hidden="true" />
+                </div>
               </div>
             </Menu.Button>
 
@@ -144,10 +143,9 @@ export default function Navigation() {
                 )}
               >
                 <span>Resources</span>
-                <ChevronDownIcon
-                  className="-mr-1 ml-2 w-5 h-5"
-                  aria-hidden="true"
-                />
+                <div className="flex items-center">
+                  <ChevronDownIcon className="w-5 h-5" aria-hidden="true" />
+                </div>
               </div>
             </Menu.Button>
 

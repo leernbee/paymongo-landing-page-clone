@@ -78,13 +78,16 @@ const Demo = () => {
             </div>
           </div>
 
-          <div className="mt-16 lg:mt-0">
+          <div className="relative mt-16 lg:mt-0">
             <img
-              className="mx-auto rounded-lg lg:mr-0 lg:ml-auto"
+              className="mx-auto rounded-lg"
               width={540}
               src="/assets/images/demo.jpeg"
               alt=""
             />
+            <div className="flex absolute top-1/2 left-1/2 justify-center items-center w-32 h-32 bg-gray-900 bg-opacity-50 rounded-full -translate-x-1/2 -translate-y-1/2">
+              <img width={42} src="/assets/svg/play.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
