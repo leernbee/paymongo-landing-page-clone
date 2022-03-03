@@ -73,7 +73,7 @@ export default function Navigation() {
                   open
                     ? 'bg-ocean-green-500 text-white'
                     : 'text-ocean-green-500',
-                  'inline-flex justify-between py-4 w-full text-md font-medium text-gray-700 bg-white px-4'
+                  'inline-flex justify-between py-4 w-full text-md font-medium text-gray-700  px-4'
                 )}
               >
                 <span>Products</span>
@@ -139,7 +139,7 @@ export default function Navigation() {
                   open
                     ? 'bg-ocean-green-500 text-white'
                     : 'text-ocean-green-500',
-                  'inline-flex justify-between py-4 w-full text-md font-medium text-gray-700 bg-white px-4'
+                  'inline-flex justify-between py-4 w-full text-md font-medium text-gray-700  px-4'
                 )}
               >
                 <span>Resources</span>
@@ -345,8 +345,14 @@ export default function Navigation() {
                   </div>
                 </div>
                 <div className="flex items-center lg:hidden">
+                  <a
+                    href="#"
+                    className="inline-flex justify-center items-center py-2 px-10 mr-2 ml-8 font-medium  text-ocean-green-500 hover:text-white whitespace-nowrap bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 text-md"
+                  >
+                    Login
+                  </a>
                   {/* Mobile menu button */}
-                  <Disclosure.Button className="inline-flex justify-center items-center p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-ocean-green-500">
+                  <Disclosure.Button className="inline-flex justify-center items-center p-3 text-gray-400 hover:text-gray-500 hover:bg-gray-100 rounded-md focus:outline-none">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XIcon className="block w-6 h-6" aria-hidden="true" />
@@ -360,7 +366,7 @@ export default function Navigation() {
           </div>
 
           <Disclosure.Panel className="lg:hidden">
-            <div className="absolute z-10 w-full">
+            <div className="absolute z-10 w-full shadow-sm">
               <MobileMenu1 />
               <div
                 className={
