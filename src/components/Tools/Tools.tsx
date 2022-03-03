@@ -24,7 +24,7 @@ const features = [
 const Tools = () => {
   return (
     <>
-      <div className="py-24 mx-auto max-w-7xl lg:py-32">
+      <div className="py-24 px-4 mx-auto max-w-7xl lg:py-32 ">
         <div className="mb-16 text-center">
           <h2 className="mt-1 text-3xl font-semibold text-gray-900 sm:tracking-tight lg:text-5xl">
             Operate your business with growth built-in

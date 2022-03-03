@@ -64,7 +64,7 @@ export default function Navigation() {
 
   const MobileMenu1 = () => {
     return (
-      <Menu as="div" className="block relative text-left">
+      <Menu as="div" className="relative text-left bg-white">
         {({ open }) => (
           <>
             <Menu.Button as={Fragment}>
@@ -73,10 +73,10 @@ export default function Navigation() {
                   open
                     ? 'bg-ocean-green-500 text-white'
                     : 'text-ocean-green-500',
-                  'inline-flex justify-between py-2 w-full text-sm font-medium text-gray-700 bg-white'
+                  'inline-flex justify-between py-4 w-full text-md font-medium text-gray-700 bg-white px-4'
                 )}
               >
-                <span>Options</span>
+                <span>Products</span>
                 <ChevronDownIcon
                   className="-mr-1 ml-2 w-5 h-5"
                   aria-hidden="true"
@@ -95,69 +95,31 @@ export default function Navigation() {
               leaveTo="transform opacity-0 scale-95"
             >
               <Menu.Items className="block w-full bg-white focus:outline-none origin-top-right ring-opacity/5">
-                <div className="py-1">
-                  <Menu.Item>
-                    {({ active }) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Account settings
-                      </a>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Support
-                      </a>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        License
-                      </a>
-                    )}
-                  </Menu.Item>
-                  <form method="POST" action="#">
-                    <Menu.Item>
-                      {({ active }) => (
-                        <button
-                          type="submit"
-                          className={classNames(
-                            active
-                              ? 'bg-gray-100 text-gray-900'
-                              : 'text-gray-700',
-                            'block w-full text-left px-4 py-2 text-sm'
-                          )}
-                        >
-                          Sign out
-                        </button>
-                      )}
-                    </Menu.Item>
-                  </form>
+                <div>
+                  {solutions.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="flex items-center p-4 hover:bg-gray-50 rounded-lg transition duration-150 ease-in-out"
+                    >
+                      <div className="flex shrink-0 justify-center items-center w-10 h-10 text-white  sm:w-16 sm:h-16">
+                        <Image
+                          src={`/assets/svg/${item.svg}`}
+                          alt="icon"
+                          height={64}
+                          width={64}
+                        />
+                      </div>
+                      <div className="ml-4">
+                        <p className="text-base font-semibold text-gray-800">
+                          {item.name}
+                        </p>
+                        <p className="text-xs text-gray-700">
+                          {item.description}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
                 </div>
               </Menu.Items>
             </Transition>
@@ -169,7 +131,7 @@ export default function Navigation() {
 
   const MobileMenu2 = () => {
     return (
-      <Menu as="div" className="block relative text-left">
+      <Menu as="div" className="relative text-left bg-white">
         {({ open }) => (
           <>
             <Menu.Button as={Fragment}>
@@ -178,10 +140,10 @@ export default function Navigation() {
                   open
                     ? 'bg-ocean-green-500 text-white'
                     : 'text-ocean-green-500',
-                  'inline-flex justify-between py-2 px-4 w-full text-sm font-medium text-gray-700 bg-white'
+                  'inline-flex justify-between py-4 w-full text-md font-medium text-gray-700 bg-white px-4'
                 )}
               >
-                <span>Options</span>
+                <span>Resources</span>
                 <ChevronDownIcon
                   className="-mr-1 ml-2 w-5 h-5"
                   aria-hidden="true"
@@ -200,69 +162,28 @@ export default function Navigation() {
               leaveTo="transform opacity-0 scale-95"
             >
               <Menu.Items className="block w-full bg-white focus:outline-none origin-top-right ring-opacity/5">
-                <div className="py-1">
-                  <Menu.Item>
-                    {({ active }) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Account settings
-                      </a>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Support
-                      </a>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <a
-                        href="#"
-                        className={classNames(
-                          active
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        License
-                      </a>
-                    )}
-                  </Menu.Item>
-                  <form method="POST" action="#">
-                    <Menu.Item>
-                      {({ active }) => (
-                        <button
-                          type="submit"
-                          className={classNames(
-                            active
-                              ? 'bg-gray-100 text-gray-900'
-                              : 'text-gray-700',
-                            'block w-full text-left px-4 py-2 text-sm'
-                          )}
-                        >
-                          Sign out
-                        </button>
-                      )}
-                    </Menu.Item>
-                  </form>
+                <div>
+                  {resources.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="flex items-center p-4 hover:bg-gray-50 rounded-lg transition duration-150 ease-in-out"
+                    >
+                      <div className="flex shrink-0 justify-center items-center w-10 h-10 text-white  sm:w-16 sm:h-16">
+                        <Image
+                          src={`/assets/svg/${item.svg}`}
+                          alt="icon"
+                          height={64}
+                          width={64}
+                        />
+                      </div>
+                      <div className="ml-4">
+                        <p className="text-base font-semibold text-gray-800">
+                          {item.name}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
                 </div>
               </Menu.Items>
             </Transition>
@@ -276,7 +197,7 @@ export default function Navigation() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="py-4 mx-auto w-full max-w-7xl h-full font-serif bg-white">
+          <div className="z-10 p-4 mx-auto w-full max-w-7xl h-full  bg-white">
             {/* Code block starts */}
             <nav className="block mx-auto w-full">
               <div className="flex justify-between items-center mx-auto h-16 lg:items-stretch">
@@ -441,23 +362,30 @@ export default function Navigation() {
           </div>
 
           <Disclosure.Panel className="lg:hidden">
-            <div className="absolute w-full">
+            <div className="absolute z-10 w-full">
               <MobileMenu1 />
               <div
                 className={
-                  'inline-flex justify-between py-2 px-4 w-full text-sm font-medium text-gray-700 bg-white'
+                  'inline-flex justify-between p-4 w-full font-medium text-gray-700 bg-white text-md'
                 }
               >
                 <span>Pricing</span>
               </div>
               <div
                 className={
-                  'inline-flex justify-between py-2 px-4 w-full text-sm font-medium text-gray-700 bg-white'
+                  'inline-flex justify-between p-4 w-full font-medium text-gray-700 bg-white text-md'
                 }
               >
                 <span>Developer</span>
               </div>
               <MobileMenu2 />
+              <div
+                className={
+                  'inline-flex justify-between p-4 w-full font-medium text-ocean-green-500 bg-white text-md'
+                }
+              >
+                <span>Sign up for free</span>
+              </div>
             </div>
           </Disclosure.Panel>
         </>

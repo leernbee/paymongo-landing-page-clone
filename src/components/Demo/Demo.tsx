@@ -21,7 +21,7 @@ const transferFeatures = [
 const Demo = () => {
   return (
     <div className="py-24 bg-gray-200 lg:py-32">
-      <div className="relative px-4 mx-auto lg:px-0 lg:max-w-7xl">
+      <div className="px-4 mx-auto lg:max-w-7xl">
         <div className="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative mx-auto max-w-2xl lg:mx-0 lg:max-w-full">
             <h3 className="text-3xl font-semibold leading-tight text-gray-900 sm:tracking-tight lg:text-5xl">

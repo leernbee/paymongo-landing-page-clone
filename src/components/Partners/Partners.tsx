@@ -2,7 +2,7 @@ import React from 'react';
 
 const Partners = () => {
   return (
-    <div className="mx-auto max-w-screen-2xl font-serif">
+    <div className="px-4 mx-auto max-w-screen-2xl">
       <div className="pb-8 border-b border-gray-400">
         <div className="block overflow-hidden relative">
           <span className="block relative after:absolute after:top-1/2 after:ml-2 after:w-full text-gray-700 after:border-t after:border-gray-400">

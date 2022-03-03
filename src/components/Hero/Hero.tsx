@@ -27,11 +27,11 @@ function BgCircleHero() {
 export default function Hero() {
   return (
     <>
-      <div className="overflow-hidden pt-8 sm:pt-12 lg:relative lg:py-32">
-        <div className="mx-auto lg:grid lg:grid-cols-2 lg:gap-0 lg:max-w-7xl">
+      <div className="overflow-hidden relative z-0 py-12 px-4 pt-8 lg:py-32">
+        <div className="relative mx-auto lg:grid lg:grid-cols-2 lg:gap-0 lg:max-w-7xl">
           <div>
             <div className="mt-20">
-              <div className="mt-6 sm:max-w-xl">
+              <div className="mx-auto mt-6 sm:max-w-xl lg:ml-0">
                 <h1 className="text-5xl font-bold tracking-tight leading-tight text-gray-900 sm:text-6xl">
                   Your tool kit for{' '}
                   <span
@@ -51,11 +51,11 @@ export default function Hero() {
                   yourself tools for success. All with one PayMongo account.
                 </p>
               </div>
-              <div className="items-center mt-12 sm:flex sm:w-full">
-                <div className="mt-4 mr-10 sm:mt-0">
+              <div className="flex flex-col gap-8 items-center mt-12 lg:flex-row">
+                <div>
                   <button
                     type="submit"
-                    className="block py-6 w-full text-lg font-medium text-white bg-ocean-green-500 hover:bg-ocean-green-600 rounded-md border border-transparent focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 sm:px-8"
+                    className="block p-4 w-full text-lg font-medium text-white bg-ocean-green-500 hover:bg-ocean-green-600 rounded-md border border-transparent focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 lg:py-6 lg:px-8"
                   >
                     Create your account - it&apos;s free!
                   </button>

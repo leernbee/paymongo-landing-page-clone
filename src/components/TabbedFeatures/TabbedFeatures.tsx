@@ -4,7 +4,7 @@ export default function TabbedFeatures() {
   const [openTab, setOpenTab] = React.useState(1);
   return (
     <>
-      <div className="py-24 mx-auto max-w-7xl lg:py-32">
+      <div className="py-24 px-4 mx-auto max-w-7xl lg:py-32">
         <div className="text-center">
           <h2 className="mt-1 text-4xl font-semibold leading-tight text-gray-900 lg:text-5xl">
             Payment tools made for{' '}
@@ -23,7 +23,10 @@ export default function TabbedFeatures() {
         </div>
 
         <div className="flex flex-wrap mt-20">
-          <ul className="flex flex-wrap mx-auto list-none" role="tablist">
+          <ul
+            className="flex flex-wrap justify-center mx-auto list-none"
+            role="tablist"
+          >
             <li className="mx-2 text-center">
               <a
                 className={`text-sm font-semibold px-8 py-3 lg:py-4 shadow-md rounded-full inline-block leading-normal my-2 ${
@@ -156,6 +159,14 @@ export default function TabbedFeatures() {
               <div className={openTab === 1 ? 'block' : 'hidden'} id="link1">
                 <div className="relative mt-12 sm:mt-16 lg:mt-24">
                   <div className="md:grid md:grid-cols-2 md:grid-flow-row-dense md:gap-8 md:items-center">
+                    <div className="relative mt-10 lg:col-start-2 lg:mt-0">
+                      <img
+                        className="relative mx-auto lg:mr-0 lg:ml-auto"
+                        width={500}
+                        src="/assets/images/links.png"
+                        alt=""
+                      />
+                    </div>
                     <div className="lg:col-start-1">
                       <div className="flex items-center -ml-6">
                         <img
@@ -177,20 +188,11 @@ export default function TabbedFeatures() {
                         Collect one-time payments through Viber, Messenger,
                         Instagram, SMS or anywhere you talk to your customer
                       </p>
-                      <div className="sm:mt-0">
-                        <button className="py-4 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
+                      <div>
+                        <button className="py-4 px-16 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow lg:px-20">
                           Learn about Links
                         </button>
                       </div>
-                    </div>
-
-                    <div className="relative mt-10 lg:col-start-2 lg:mt-0">
-                      <img
-                        className="relative mx-auto lg:mr-0 lg:ml-auto"
-                        width={500}
-                        src="/assets/images/links.png"
-                        alt=""
-                      />
                     </div>
                   </div>
                 </div>
@@ -198,6 +200,14 @@ export default function TabbedFeatures() {
               <div className={openTab === 1 ? 'block' : 'hidden'} id="link2">
                 <div className="relative mt-12 sm:mt-16 lg:mt-24">
                   <div className="md:grid md:grid-cols-2 md:grid-flow-row-dense md:gap-8 md:items-center">
+                    <div className="relative mt-10 lg:col-start-1 lg:mt-0">
+                      <img
+                        className="relative mx-auto lg:mr-auto lg:ml-0"
+                        width={500}
+                        src="/assets/images/pages.png"
+                        alt=""
+                      />
+                    </div>
                     <div className="lg:col-start-2">
                       <div className="flex items-center -ml-6">
                         <img
@@ -219,20 +229,11 @@ export default function TabbedFeatures() {
                         An always-on payment page, custom-made for your
                         business&apos; product or service
                       </p>
-                      <div className="sm:mt-0">
-                        <button className="py-4 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
+                      <div>
+                        <button className="py-4 px-16 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow lg:px-20">
                           Learn about Pages
                         </button>
                       </div>
-                    </div>
-
-                    <div className="relative mt-10 lg:col-start-1 lg:mt-0">
-                      <img
-                        className="relative mx-auto lg:mr-auto lg:ml-0"
-                        width={500}
-                        src="/assets/images/pages.png"
-                        alt=""
-                      />
                     </div>
                   </div>
                 </div>
@@ -240,6 +241,15 @@ export default function TabbedFeatures() {
               <div className={openTab === 1 ? 'block' : 'hidden'} id="link1">
                 <div className="relative mt-12 sm:mt-16 lg:mt-24">
                   <div className="md:grid md:grid-cols-2 md:grid-flow-row-dense md:gap-8 md:items-center">
+                    <div className="relative mt-10 lg:col-start-2 lg:mt-0">
+                      <img
+                        className="relative mx-auto lg:mr-0 lg:ml-auto"
+                        width={500}
+                        src="/assets/images/plugins.png"
+                        alt=""
+                      />
+                    </div>
+
                     <div className="lg:col-start-1">
                       <div className="flex items-center -ml-6">
                         <img
@@ -261,20 +271,11 @@ export default function TabbedFeatures() {
                         Add PayMongo to your e-commerce platform of choice to
                         collect credit card and e-wallet payments
                       </p>
-                      <div className="sm:mt-0">
-                        <button className="py-4 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
+                      <div>
+                        <button className="py-4 px-16 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow lg:px-20">
                           Learn about our Plugins
                         </button>
                       </div>
-                    </div>
-
-                    <div className="relative mt-10 lg:col-start-2 lg:mt-0">
-                      <img
-                        className="relative mx-auto lg:mr-0 lg:ml-auto"
-                        width={500}
-                        src="/assets/images/plugins.png"
-                        alt=""
-                      />
                     </div>
                   </div>
                 </div>
@@ -282,6 +283,15 @@ export default function TabbedFeatures() {
               <div className={openTab === 1 ? 'block' : 'hidden'} id="link2">
                 <div className="relative mt-12 sm:mt-16 lg:mt-24">
                   <div className="md:grid md:grid-cols-2 md:grid-flow-row-dense md:gap-8 md:items-center">
+                    <div className="relative mt-10 lg:col-start-1 lg:mt-0">
+                      <img
+                        className="relative mx-auto lg:mr-auto lg:ml-0"
+                        width={500}
+                        src="/assets/images/api.png"
+                        alt=""
+                      />
+                    </div>
+
                     <div className="lg:col-start-2">
                       <div className="flex items-center -ml-6">
                         <img
@@ -304,20 +314,11 @@ export default function TabbedFeatures() {
                         gigs to complex products and services for millions of
                         customers.
                       </p>
-                      <div className="sm:mt-0">
-                        <button className="py-4 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow sm:px-20">
+                      <div>
+                        <button className="py-4 px-16 text-lg font-medium text-ocean-green-500 hover:text-white bg-transparent hover:bg-ocean-green-500 rounded-md border-2 border-ocean-green-500 focus:outline-none focus:ring-2 focus:ring-ocean-green-500 focus:ring-offset-2 shadow lg:px-20">
                           Learn about our API
                         </button>
                       </div>
-                    </div>
-
-                    <div className="relative mt-10 lg:col-start-1 lg:mt-0">
-                      <img
-                        className="relative mx-auto lg:mr-auto lg:ml-0"
-                        width={500}
-                        src="/assets/images/api.png"
-                        alt=""
-                      />
                     </div>
                   </div>
                 </div>
