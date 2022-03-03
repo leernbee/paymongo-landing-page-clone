@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Testimonials = () => {
   return (
-    <div className="overflow-hidden py-32 mx-auto max-w-full font-serif sm:py-24">
+    <div className="py-24 max-w-full lg:py-32">
       <div className="mb-16 text-center">
         <h2 className="mt-1 text-3xl font-semibold text-gray-900 sm:tracking-tight lg:text-5xl">
           Here’s what they have to say
@@ -63,7 +63,7 @@ const Testimonials = () => {
                   left: '50%',
                   top: '50%',
                   position: 'absolute',
-                  transform: 'translate(-400px, -40px)',
+                  transform: 'translate(-400px, -54px)',
                   zIndex: 100,
                   backgroundColor: '#fff',
                 }}
@@ -89,7 +89,7 @@ const Testimonials = () => {
                   right: '50%',
                   top: '50%',
                   position: 'absolute',
-                  transform: 'translate(400px, -40px)',
+                  transform: 'translate(400px, -54px)',
                   zIndex: 100,
                   backgroundColor: '#fff',
                 }}
@@ -99,7 +99,7 @@ const Testimonials = () => {
             )
           }
         >
-          <div className="flex flex-col justify-between items-start p-8 m-16 blur-sm">
+          <div className="flex flex-col justify-between items-start p-8 mx-16 mb-16 blur-sm">
             <div className="mb-6">
               <img
                 className="max-h-12"
@@ -121,7 +121,7 @@ const Testimonials = () => {
             </p>
             <span className="text-sm text-gray-600">Boundless</span>
           </div>
-          <div className="flex flex-col justify-between items-start p-8 m-16 blur-sm">
+          <div className="flex flex-col justify-between items-start p-8 mx-16 mb-16 blur-sm">
             <div className="mb-6">
               <img
                 className="max-h-12"
@@ -143,7 +143,7 @@ const Testimonials = () => {
             </p>
             <span className="text-sm text-gray-600">Boundless</span>
           </div>
-          <div className="flex flex-col justify-between items-start p-8 m-16 blur-sm">
+          <div className="flex flex-col justify-between items-start p-8 mx-16 mb-16 blur-sm">
             <div className="mb-6">
               <img
                 className="max-h-12"
@@ -165,7 +165,7 @@ const Testimonials = () => {
             </p>
             <span className="text-sm text-gray-600">Boundless</span>
           </div>
-          <div className="flex flex-col justify-between items-start p-8 m-16 blur-sm">
+          <div className="flex flex-col justify-between items-start p-8 mx-16 mb-16 blur-sm">
             <div className="mb-6">
               <img
                 className="max-h-12"
@@ -187,7 +187,7 @@ const Testimonials = () => {
             </p>
             <span className="text-sm text-gray-600">Boundless</span>
           </div>
-          <div className="flex flex-col justify-between items-start p-8 m-16 blur-sm">
+          <div className="flex flex-col justify-between items-start p-8 mx-16 mb-16 blur-sm">
             <div className="mb-6">
               <img
                 className="max-h-12"
@@ -209,7 +209,7 @@ const Testimonials = () => {
             </p>
             <span className="text-sm text-gray-600">Boundless</span>
           </div>
-          <div className="flex flex-col justify-between items-start p-8 m-16 blur-sm">
+          <div className="flex flex-col justify-between items-start p-8 mx-16 mb-16 blur-sm">
             <div className="mb-6">
               <img
                 className="max-h-12"
@@ -231,7 +231,7 @@ const Testimonials = () => {
             </p>
             <span className="text-sm text-gray-600">Boundless</span>
           </div>
-          <div className="flex flex-col justify-between items-start p-8 m-16 blur-sm">
+          <div className="flex flex-col justify-between items-start p-8 mx-16 mb-16 blur-sm">
             <div className="mb-6">
               <img
                 className="max-h-12"
@@ -253,7 +253,7 @@ const Testimonials = () => {
             </p>
             <span className="text-sm text-gray-600">Boundless</span>
           </div>
-          <div className="flex flex-col justify-between items-start p-8 m-16 blur-sm">
+          <div className="flex flex-col justify-between items-start p-8 mx-16 mb-16 blur-sm">
             <div className="mb-6">
               <img
                 className="max-h-12"

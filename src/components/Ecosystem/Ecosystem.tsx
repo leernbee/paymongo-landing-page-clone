@@ -4,11 +4,11 @@ export default function Ecosystem() {
       style={{
         background: 'linear-gradient(90deg,#37b47e 23%,#6a71cf 91%)',
       }}
-      className="overflow-hidden py-16 font-serif bg-gray-200 lg:py-32"
+      className="overflow-hidden py-24 lg:py-32"
     >
-      <div className="relative px-4 mx-auto max-w-xl sm:px-6 lg:px-8 lg:max-w-7xl">
+      <div className="relative px-4 mx-auto lg:px-0 lg:max-w-7xl">
         <div className="relative">
-          <div className="mx-auto max-w-3xl g-container">
+          <div className="mx-auto max-w-4xl g-container">
             <div className="mid">
               <img
                 className="relative mx-auto rounded-md"

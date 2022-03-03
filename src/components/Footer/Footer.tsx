@@ -84,19 +84,19 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="font-serif bg-white" aria-labelledby="footer-heading">
+    <footer aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="py-12 px-4 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-        <div className="flex justify-between">
-          <div className="xl:col-span-1">
+      <div className="px-4 pt-20 pb-8 mx-auto max-w-7xl lg:px-0">
+        <div className="flex flex-col justify-between lg:flex-row">
+          <div>
             <img
-              className="block mb-4 h-9"
+              className="block mb-6 h-9"
               src="/assets/svg/main-logo.svg"
               alt="Company name"
             />
-            <address className="block mb-3 text-lg not-italic font-normal text-gray-800">
+            <address className="block mb-3 not-italic font-normal text-gray-800 lg:text-lg">
               Unit 3308, High St South Corp Plaza Tower 2<br /> 26th St and 11th
               Ave, Bonifacio Global City
               <br /> Taguig 1634 Philippines
@@ -128,55 +128,53 @@ export default function Example() {
               ))}
             </div>
           </div>
-          <div className="flex xl:mt-0">
-            <div className="grid grid-cols-2 gap-8">
-              <div className="min-w-[160px]">
-                <ul role="list" className="space-y-4">
-                  {navigation.company.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-gray-600 hover:text-ocean-green-500 text-md"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="min-w-[160px]">
-                <ul role="list" className="space-y-4">
-                  {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-gray-600 hover:text-ocean-green-500 text-md"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          <div className="flex mt-12 lg:gap-8 lg:mt-0">
+            <div className="grow min-w-[160px]">
+              <ul role="list" className="space-y-4">
+                {navigation.company.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-gray-600 hover:text-ocean-green-500 text-md"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="grow min-w-[160px]">
+              <ul role="list" className="space-y-4">
+                {navigation.legal.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-gray-600 hover:text-ocean-green-500 text-md"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 items-center mt-12">
+        <div className="flex flex-col items-center mt-12 lg:flex-row lg:justify-between">
           <p className="text-base text-gray-500">
             &copy; Copyright 2022 Paymongo
           </p>
-          <div className="flex flex-wrap justify-between -mt-4 -ml-8 lg:-ml-4">
-            <div className="flex grow shrink-0 mt-4 ml-8 lg:grow-0 lg:ml-4">
+          <div className="flex flex-wrap gap-4 justify-center mt-8 lg:mt-0">
+            <div className="flex">
               <img
                 className="h-14"
                 src="/assets/images/pci-dss.png"
                 alt="pci-dss"
               />
             </div>
-            <div className="flex grow shrink-0 mt-4 ml-8 lg:grow-0 lg:ml-4">
+            <div className="flex">
               <img className="h-14" src="/assets/images/bsp.png" alt="bsp" />
             </div>
-            <div className="flex grow shrink-0 mt-4 ml-8 lg:grow-0 lg:ml-4">
+            <div className="flex">
               <img
                 className="h-14"
                 src="/assets/images/badge.png"

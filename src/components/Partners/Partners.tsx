@@ -2,14 +2,14 @@ import React from 'react';
 
 const Partners = () => {
   return (
-    <div className="py-8 mx-auto max-w-7xl font-serif ">
-      <div className="pb-8 mx-2 border-b border-gray-400">
+    <div className="mx-auto max-w-screen-2xl font-serif">
+      <div className="pb-8 border-b border-gray-400">
         <div className="block overflow-hidden relative">
           <span className="block relative after:absolute after:top-1/2 after:ml-2 after:w-full text-gray-700 after:border-t after:border-gray-400">
             Our growing list of payment partners
           </span>
         </div>
-        <div className="flex flex-wrap gap-8 justify-center mx-auto mt-8">
+        <div className="flex flex-wrap gap-14 justify-center mx-auto mt-8">
           <img
             src="/assets/svg/visa.svg"
             alt=""

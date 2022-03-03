@@ -9,10 +9,10 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="antialiased">
+  <div className="overflow-hidden antialiased">
     {props.meta}
 
-    <div>
+    <div className="font-serif">
       <Navigation />
       <div>{props.children}</div>
       <Footer />

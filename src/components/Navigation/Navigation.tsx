@@ -73,7 +73,7 @@ export default function Navigation() {
                   open
                     ? 'bg-ocean-green-500 text-white'
                     : 'text-ocean-green-500',
-                  'inline-flex justify-between py-2 px-4 w-full text-sm font-medium text-gray-700 bg-white'
+                  'inline-flex justify-between py-2 w-full text-sm font-medium text-gray-700 bg-white'
                 )}
               >
                 <span>Options</span>
@@ -273,13 +273,13 @@ export default function Navigation() {
   };
 
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="py-4 mx-auto w-full h-full font-serif bg-white lg:container">
+          <div className="py-4 mx-auto w-full h-full font-serif bg-white">
             {/* Code block starts */}
             <nav className="block mx-auto w-full">
-              <div className="flex justify-between items-center px-6 mx-auto h-16 lg:items-stretch">
+              <div className="flex justify-between items-center mx-auto h-16 lg:items-stretch">
                 <div className="flex items-center">
                   {/* Logo */}
                   <Image
@@ -297,7 +297,7 @@ export default function Navigation() {
                       onMouseLeave={() => setMenu1(false)}
                     >
                       {menu1 && (
-                        <div className="absolute top-12 left-1/2 z-10 px-2 mt-3 w-screen max-w-xs -translate-x-1/2 sm:px-0">
+                        <div className="absolute top-12 left-1/2 z-10 px-2 mt-3 w-screen max-w-sm -translate-x-1/2 sm:px-0">
                           <div className="overflow-hidden rounded-lg ring-opacity/5">
                             <div className="grid relative gap-6 py-6 px-5 bg-white sm:gap-8 sm:p-8">
                               {solutions.map((item) => (
