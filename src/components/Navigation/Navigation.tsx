@@ -276,7 +276,7 @@ export default function Navigation() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="py-4 mx-auto w-full h-full font-serif bg-white">
+          <div className="py-4 mx-auto w-full max-w-7xl h-full font-serif bg-white">
             {/* Code block starts */}
             <nav className="block mx-auto w-full">
               <div className="flex justify-between items-center mx-auto h-16 lg:items-stretch">
