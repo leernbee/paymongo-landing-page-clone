@@ -14,10 +14,13 @@ const Index = () => {
   return (
     <Main
       meta={
+        <>
         <Meta
-          title="Simplifying payments for the modern business | Paymongo"
-          description="Paymongo website clone"
+          title="For educational purpose only"
+          description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
         />
+        <meta name="robots" content="noindex" />
+        </>
       }
     >
       <>
