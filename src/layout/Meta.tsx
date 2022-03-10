@@ -59,6 +59,7 @@ const Meta = (props: IMetaProps) => {
           site_name: AppConfig.site_name,
         }}
       />
+      <meta name="robots" content="noindex" />
     </>
   );
 };
